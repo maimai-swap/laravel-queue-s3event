@@ -1,0 +1,24 @@
+{
+	"name": "maimai-swap/laravel-queue-s3event",
+	"version": "4.2",
+	"description": "s3 event and sqs driver for Laravel Queue",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Seiki Ishimaru",
+			"email": "ishimaru@mediba.jp"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "4.2.*@dev",
+		"illuminate/queue": "4.2.*@dev",
+        "aws/aws-sdk-php-laravel": "1.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"MaimaiSwap\\LaravelQueueS3Event": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
